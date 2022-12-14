@@ -20,6 +20,8 @@ namespace DemoApplication.Database
         public DbSet<Category> Categories { get; set; }
         public DbSet<BookCategory> BookCategories { get; set; }
 
+        public DbSet<Subscribe> Subscribes { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
