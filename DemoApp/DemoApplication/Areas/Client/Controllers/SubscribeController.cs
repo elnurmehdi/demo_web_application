@@ -15,7 +15,10 @@ namespace DemoApplication.Areas.Client.Controllers
         }
 
 
+        [HttpGet("add", Name = "client-subscribe-add")]
+        public async Task<IActionResult> AddAsync()
+        {
 
-        
+        }
     }
 }

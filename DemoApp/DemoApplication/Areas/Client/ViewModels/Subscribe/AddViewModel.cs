@@ -2,5 +2,8 @@
 {
     public class AddViewModel
     {
+        
+        public string EmailAdress { get; set; }
+
     }
 }
